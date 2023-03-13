@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#define pi
+int main()
+{
+    int r;
+   float pi=3.14,A,D,C;
+   printf("enter the radius");
+   scanf("%d",&r);
+   A=pi*r*r;
+   D=2*r;
+   c=2*pi*r;
+   printf("A,D,C of circle:%f%f%f",A,D,C);
+   getch();
+   return 0;
+   
