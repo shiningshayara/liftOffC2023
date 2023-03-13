@@ -3,7 +3,7 @@
 int main() 
 {
     int num;
-    cleacr() 
+    cleacr();
     printf("enter the number");
     scanf("%d",&num);
     if(num= =0)
