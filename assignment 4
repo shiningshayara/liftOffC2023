@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+  int main(
+  {
+  int n,m;
+  char o;
+  clrscr();
+  printf ("enter two number and operator");
+  scanf("%d%d%c",&n,&m,&o);
+  switch(0)
+  {
+    case'+':
+    printf("addition is:%d",n+m);
+    break:
+  case'-':
+  printf("subtraction is:%d",n-m);
+  break:
+ case'*':
+ printf("multiplication is:%d",n*m);
+ break:
+  case'/':
+  printf("division is:%d",n/m);
+  break:
+ defult:
+ printf("operator is not correct");
+ break:
+ return 0;
+  }
+  }
