@@ -1,0 +1,25 @@
+include<stdio.h>
+int main(){
+    int size,i,num,occur=0;
+    printf("enter the array size");
+    scanf("%d",&size);
+    int arr[size];
+    printf("enter the array %d element",size);
+    for(i=0;i<size;i++){
+        scanf("%d",&arr[i]);
+        }
+        printf("enter the item no");
+        scanf("%d",&num);
+        i=0
+        while(i<size)
+        {
+            if(arr[i]= = num)
+            {
+                occur++;
+                }
+                i++;
+                }
+                
+                printf("%d occured %d times\n",num,occur);
+                return 0;
+                }
