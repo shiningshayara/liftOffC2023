@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+    int a[10],b[10],s[20],m,n,c;
+    printf("enter the no of element in first array");
+    scanf("%d",&m);
+    printf("input %d integrr",m);
+    for(c=0;c<m;c++){
+   scanf("%d",&a[c]);
+   }
+   printf("enter the no of element in second array");
+   scanf("%d",&n);
+   printf("input %d integr,n");
+   for(c=0;c<n;c++){
+       scanf("%d",&b[c]);
+       }
+       int s[m+n];
+       for(c=0;c<m;c++)
+       {
+           s[c]=a[c];
+           }
+           for(c=m;c<n;c++)
+           {
+               s[c]=b[c-m];
+               }
+               for(c=(m+n);c>0;c--)
+               {
+                   printf("%d\n"d[c]);
+                   }
+                   return 0;
+                   }
