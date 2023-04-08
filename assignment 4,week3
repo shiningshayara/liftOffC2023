@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main() 
+{
+    int n,p,f=1, i;
+    print("enter a number");
+    scanf("%d",&n);
+    p=&f;
+    for("i=1;i<=n;i++");
+    {
+     *p=(*p)*i; (f=f*1)
+     }
+     printf("factorial=%d",f);
+     return 0;
+     }
